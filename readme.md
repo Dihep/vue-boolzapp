@@ -1,12 +1,15 @@
 Obbiettivo generale: 
-Creare una mini-applicazione per una "To-Do list".
+Creare una applicazione web simile a WhatsApp
 
 ----------------------------------------------------------
-MILESTONE #0
-Creare una lista di cose da fare (array di stringhe) e stamparlo in pagina, creando in elemento HTML per ogni elemento dell'array.
-
 MILESTONE #1
-Aggiungere un <input> il cui "value" sia collegato ad un dato, aggiungerlo alla lista e svuotare <input>.
+- Replica della grafica, con possibilità di avere messaggi scritti dall'utente (verdi) e dall'interlocutore (bianchi) assegnando due classi CSS diverse.
+- Visualizazione dinamica della lista contatti (nome e cognome) tramite direttiva v-for.
 
 MILESTONE #2
-Aggiungere un bottone per ogni elemento della lista che permetta di rimuovere l'elemento.
+- Visualizzazione dinamica dei messaggi relativi al contatto attivo tramite direttiva v-for.
+- Cambiare conversazione attiva al click su di un contatto.
+
+MILESTONE #3
+- Aggiungere la possibilità per l'utente di postare messaggi (verdi).
+- Ad ogni messaggio dell'utente, in risposta dovrà essere inviato "ok" dopo un secondo.
