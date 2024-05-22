@@ -20,7 +20,29 @@
         <script src="https://unpkg.com/vue@3.4.27/dist/vue.global.js"></script>
 
         <div id="vueApp">
-            <button @click="placeholderMethod">Test</button>
+            <div id="container">
+                <!-- Navbar con contatti e menù -->
+                <nav id="left-menu">
+                    <div id="user-card" class="nav-card"></div>
+                    <div id="notifiche-card" class="nav-card"></div>
+                    <div id="ricerca-contatti" class="nav-card"></div>
+                    <!-- Lista contatti -->
+                    <ul id="contact-list" class="nav-card">
+                        <li></li>
+                    </ul>
+                </nav>
+
+                <!-- Area di messaggistica -->
+                <div id="messaging-container">
+
+                    <div id="menu-interlocutore"></div>
+                    <div id="message-board"></div>
+                    <div id="user-input"></div>
+
+                </div>
+
+
+            </div>
         </div>
 
         <!-- Java -->
